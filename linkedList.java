@@ -1,7 +1,6 @@
-public class MyLinkedList {
-
+public class MyLinkedList{
     public static void main(String[] args) {
-        MyLinkedList1 ml = new MyLinkedList1();
+        MyLinkedList ml = new MyLinkedList();
         ml.mergeAll();
         System.out.println(ml);
         ml.insertFirst(1);
@@ -24,7 +23,7 @@ public class MyLinkedList {
     Node first, last;
     int size = 0;
 
-    public MyLinkedList1() {
+    public MyLinkedList() {
         first = null;
         last = null;
         size = 0;
