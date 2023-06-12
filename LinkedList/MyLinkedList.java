@@ -1,3 +1,4 @@
+package LinkedList;
 public class MyLinkedList{
     public static void main(String[] args) {
         MyLinkedList ml = new MyLinkedList();
